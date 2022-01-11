@@ -4,6 +4,7 @@ import tkinter as tk
 
 
 #####-Main Window-#####
+# Create a 420x420 window for the gui
 root = tk.Tk()
 root.wm_geometry("420x420")
 
