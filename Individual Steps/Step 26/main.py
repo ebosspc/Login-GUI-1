@@ -17,6 +17,7 @@ def test_my_button():
 
 
 #####-Main Window-#####
+# Create a 600x300 window for the gui
 root = tk.Tk()
 root.wm_geometry("600x300")
 
