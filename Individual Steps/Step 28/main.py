@@ -11,6 +11,8 @@ root.wm_geometry("420x420")
 # Set the title
 root.title('Multicolored GUI')
 
+
+#####-GUI-#####
 # Create the blue frame
 blue_frame = tk.Frame(root, height=210, width=275, background='blue')
 blue_frame.grid(row=0, column=0, sticky='news')
@@ -27,5 +29,7 @@ red_frame.grid(row=1, column=0, sticky='news')
 green_frame = tk.Frame(root, height=210, width=145, background='yellow')
 green_frame.grid(row=1, column=1, sticky='news')
 
+
+#####-Window Control-#####
 # Keep the window persistent
 root.mainloop()
