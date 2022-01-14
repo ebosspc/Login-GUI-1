@@ -34,6 +34,7 @@ frame_login.grid(row=0, column=0, sticky='news')
 frame_auth = tk.Frame(root)
 frame_auth.grid(row=0, column=0, sticky='news')
 
+
 #####-Labels-#####
 # Create a Username widget
 lbl_username = tk.Label(frame_login, text='Username:', font='Courier')
@@ -46,6 +47,7 @@ lbl_password.pack()
 # Add a label to the authentication frame
 lbl_auth = tk.Label(frame_auth, font='Courier')
 lbl_auth.pack()
+
 
 #####-Entry Fields-#####
 # Add username input field for the user
